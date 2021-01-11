@@ -1,0 +1,21 @@
+@import "../base/variables"; 
+
+button {
+    background-color: $accent-color;
+    border: none;
+    color: $white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: background-color .5s;
+
+    &:hover{
+        background-color: #ff7b00;
+
+        @extend %transform;
+
+    }
+
+}

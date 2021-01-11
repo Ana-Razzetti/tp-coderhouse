@@ -1,0 +1,195 @@
+/* Colors */
+/* fonts */
+/*  */
+button:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+}
+
+/* Colors */
+/* fonts */
+/*  */
+button:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+}
+
+button {
+  background-color: #13bac4;
+  border: none;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 2rem;
+  transition: background-color 0.5s;
+}
+button:hover {
+  background-color: #ff7b00;
+}
+
+/* Portada */
+.slider {
+  background-image: url(../img/portada.svg);
+  background-size: cover;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+  margin-top: -300px;
+}
+
+/* .slidertexto{
+    position: relative;
+    padding: 5% 0;
+    display:flex;
+    flex-wrap:wrap;
+} */
+header {
+  z-index: 2;
+}
+
+.navbar-light {
+  background: transparent;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-collapse {
+  background: transparent;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 3rem;
+}
+
+.navbar-nav a:hover {
+  color: #13bac4;
+}
+
+h1, h2 {
+  color: #ffffff;
+  position: relative;
+  padding: 1.5rem 7rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.text {
+  padding-top: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 
+@media screen and (max-width:480px;) {
+    .slidertexto {
+
+    }
+    .slidertexto h1 { }
+    nav button { display: none; } 
+    }
+ */
+/* Nuestros Servicios */
+h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #212A2F;
+  padding: 3rem;
+  text-align: center;
+}
+
+p {
+  font-weight: 200;
+  font-size: 1.3rem;
+  color: #212A2F;
+  /* padding: 0rem 10rem;
+  text-align: center; */
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #ff7b00;
+}
+
+.clients {
+  background-color: #d1d1d1;
+}
+
+section {
+  margin: 3rem 0 6rem 0;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ff7b00;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #13bac4;
+}
+
+/* Carreras*/
+.card-text p {
+  text-align: left;
+  padding: 0;
+}
+
+/* Carreras*/
+footer {
+  background-color: #212A2F;
+  padding: 3rem 0rem;
+}
+
+.form-label {
+  color: white;
+}
+
+.footer--buttons {
+  padding: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
