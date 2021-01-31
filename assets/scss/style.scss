@@ -1,32 +1,12 @@
 @import "../scss/base/variables"; 
 @import "../scss/components/buttons"; 
 @import "../scss/components/portada";
+@import "../scss/components/texts";
+@import "../scss/components/reset";
 
 
 
-
-* {
-    margin:0;
-    padding:0; 
-    box-sizing: border-box; 
-    font-family: 'Poppins', sans-serif;
-  }
-  /* 
-  @media screen and (max-width:480px;) {
-      .slidertexto {
-      
-      }
-      .slidertexto h1 { }
-      nav button { display: none; } 
-      }
-   */
-
-  
  
-  
-  /* Nuestros Servicios */
-  
-  
   h3{
       font-weight: 300;
       font-size: 2rem; 

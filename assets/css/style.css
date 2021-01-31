@@ -33,31 +33,30 @@ button:hover {
   background-color: #ff7b00;
 }
 
-/* Portada */
-.slider {
+/* Nav y Header */
+header {
   background-image: url(../img/portada.svg);
   background-size: cover;
   height: 100vh;
-  position: sticky;
   top: 0;
   z-index: -1;
   margin-top: -300px;
+  width: 100%;
+  
 }
-
-/* .slidertexto{
-    position: relative;
-    padding: 5% 0;
-    display:flex;
-    flex-wrap:wrap;
-} */
-header {
-  z-index: 2;
-}
-
+  
 .navbar-light {
   background: transparent;
   position: sticky;
   top: 0;
+}
+
+.slider-texto{
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .navbar-collapse {
@@ -80,50 +79,8 @@ a {
   color: #13bac4;
 }
 
-h1, h2 {
-  color: #ffffff;
-  position: relative;
-  padding: 1.5rem 7rem;
-}
 
-h1 {
-  font-size: 6rem;
-  font-weight: 600;
-}
 
-h2 {
-  font-weight: 300;
-  font-size: 3rem;
-}
-
-.text {
-  padding-top: 10rem;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-/* 
-@media screen and (max-width:480px;) {
-    .slidertexto {
-
-    }
-    .slidertexto h1 { }
-    nav button { display: none; } 
-    }
- */
-/* Nuestros Servicios */
-h3 {
-  font-weight: 300;
-  font-size: 2rem;
-  color: #212A2F;
-  padding: 3rem;
-  text-align: center;
-}
 
 p {
   font-weight: 200;
@@ -193,3 +150,10 @@ footer {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Sobre Nostros */
+h3{
+  color:#212A2F;
+  text-align: center;
+  
+}

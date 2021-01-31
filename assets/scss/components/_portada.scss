@@ -1,72 +1,53 @@
 /* Portada */
   
- .slider {
-    background-image: url(../img/portada.svg) ;
+ 
+/* Nav y Header */
+header {
+    background-image: url(../img/portada.svg);
     background-size: cover;
     height: 100vh;
-    position: sticky;  
-    top:0;
+    top: 0;
     z-index: -1;
-    margin-top:-300px;
-} 
-
-/* .slidertexto{
-    position: relative;
-    padding: 5% 0;
-    display:flex;
-    flex-wrap:wrap;
-} */
-
- header{
-     z-index: 2;
- }
-
- .navbar-light {
-     background:transparent;
-     position:sticky;
-     top:0;
- }
- 
- .navbar-collapse{
-     background:transparent;
-     padding:1.5rem 2rem;
-     display:flex;
-     justify-content: space-evenly;
-     align-items: center;   
- }
-
- a{
+    margin-top: -300px;
+    width: 100%;
+  }
+    
+  .navbar-light {
+    background: transparent;
+    position: sticky;
+    top: 0;
+  }
+  
+  .portada{
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  
+  .navbar-collapse {
+    background: transparent;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  a {
     color: $white;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
-    padding-right:3rem;
+    padding-right: 3rem;
+  }
+  
+  .navbar-nav a:hover {
+    color: #13bac4;
+  }
 
+  .navbar>.container {
+    flex-direction: row-reverse;
 }
 
-.navbar-nav a:hover {
-    color:$accent-color;
-}
-
-
-h1,h2 {
-    color: $white;
-    position: relative;
-    padding:1.5rem 7rem;
-}
-
-
-h1{
-    font-size:  6rem;
-    font-weight: 600;
-}
-
-
-h2 {
-    font-weight: 300;
-    font-size: 3rem; 
-}
-
-.text{
-    padding-top:10rem;
-}
+  
