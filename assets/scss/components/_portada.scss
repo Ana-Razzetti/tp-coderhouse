@@ -1,53 +1,116 @@
 /* Portada */
-  
- 
-/* Nav y Header */
-header {
-    background-image: url(../img/portada.svg);
-    background-size: cover;
-    height: 100vh;
-    top: 0;
-    z-index: -1;
-    margin-top: -300px;
-    width: 100%;
-  }
-    
-  .navbar-light {
-    background: transparent;
-    position: sticky;
-    top: 0;
-  }
-  
-  .portada{
-    width: 94%;
-    margin: 4em auto;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-  }
-  
-  .navbar-collapse {
-    background: transparent;
-    padding: 1.5rem 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  a {
-    color: $white;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-right: 3rem;
-  }
-  
-  .navbar-nav a:hover {
-    color: #13bac4;
-  }
 
-  .navbar>.container {
-    flex-direction: row-reverse;
+
+/* Nav y Header */
+
+
+/* Styles */
+
+
+header {
+  background-image: url(../img/portada.svg);
+  background-size: cover;
+  max-width: 100%;
+  height: 44rem;
+  
 }
 
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-light {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.navbar-toggler {
+  background-color: $white;
+}
+
+
+.portada {
+  margin: 15rem auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+
+.title span{
+  font-size: 3rem;
+}
+
+.navbar-collapse {
+  background: transparent;
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+ 
+}
+
+
+a {
+  color: $white;
+  text-decoration: none;
+  padding-right: 3rem;
+}
+
+.navbar-nav a:hover {
+  color: #13bac4;
+  text-decoration: none;
+}
+
+
+.black {
+  background-color: rgba(12, 12, 12, 0.7);
+}
+
+li {
+  padding: 1rem 0rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+
+
+  .navbar-collapse {
+    justify-content: flex-start;
+    padding: 0rem;
+  }
+
+  .navbar-collapse a {
+    padding: 0rem;
+  }
+
   
+
+  .navbar .container {
+    flex-direction: row-reverse;
+  }
+
+  
+  h1 {
+    padding:0;
+    margin:0
+  }
+
+  .navbar-brand {
+    padding:0;
+    margin:0
+  }
+
+
+}
+
+
+
+

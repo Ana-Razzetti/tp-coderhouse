@@ -1,0 +1,71 @@
+@import "../base/variables";
+
+/* Sections */
+
+/* General Styles */
+
+section {
+    margin: 3rem 0 6rem 0;
+  }
+  
+  .line {
+    width: 3rem;
+    margin: 0rem 0rem 1rem 0rem;
+    border-bottom: 3px solid $accent-color;
+  
+  }
+  
+  
+  .hs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /* About Us */
+  
+  .about-us {
+    background-color:$bg-color;
+    padding: 3rem 0;
+  
+    h4,
+    h3,
+      {
+      color: $white;
+  
+    }
+  
+    .line {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  
+  /* Clientes */
+  
+  .clientes {
+    background-color:$bg-secondary-color;
+    padding: 3rem 0;
+  
+  }
+  
+  
+  /* Efecto Scroll */
+  
+  .show {
+    opacity: 0;
+  }
+  
+  
+  
+  /* Contador */
+  
+  .counter {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    margin: 1.5rem 1rem;
+  }
+  
+  

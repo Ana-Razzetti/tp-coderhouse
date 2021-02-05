@@ -1,0 +1,44 @@
+
+@import "../base/variables";
+
+/* Footer */
+
+footer {
+    background-color: $secondary-color;
+    padding: 3rem 0;
+  
+    h3{
+      color: white;
+    }
+  
+    p {
+      margin: 2rem 1rem 0;
+      color: white;
+      line-height: 1.5rem;
+    }
+  
+    .line {
+      margin: 0rem 0rem 2rem 0rem;
+      border-bottom: 3px solid $primary-color;
+  
+    }
+  
+    .form-label {
+      color: white;
+      padding-bottom: 0.5rem;
+    }
+  
+  
+    .comentario {
+      height: 7rem;
+    }
+  
+    button {
+      margin-bottom: 4rem;
+    }
+  
+    a:hover {
+      color: $primary-color;
+    }
+  
+  }
